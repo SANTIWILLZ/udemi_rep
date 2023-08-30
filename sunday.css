@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+}
+header {
+  height: 5vh;
+  width: 100%;
+  background-color: white;
+  
+}
+header div {
+  margin: 0 40px;
+  width: 120px;
+  color: rgb(43, 42, 42);
+}
+header p {
+  font-size: 13px;
+  margin-right: -10px;
+  color: rgb(20, 20, 20);
+}
+.text {
+  font-weight: 900;
+  padding-bottom: 0;
+  color: white;
+}
+h1 {
+  font-weight: 900;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+hr {
+  margin: 10px 0;
+  border: 1.5px solid;
+}
+.text p {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 0;
+}
+.flexbox {
+  box-shadow: rgb('0, 0, 0, 0.5') 5px 5px 10px;
+  background-color: rgb(144, 144, 206);
+  height: 60vh;
+  width: 65vw;
+  align-items: center;
+  justify-content: center;
+}
+.body .img {
+  height: 50vh;
+  display: flex;
+  width: 20vw;
+}
+.body h1{
+  color: rgb(245, 231, 231);
+  font-size: 25px;
+}
+
+img {
+  height: 100%;
+}
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.view {
+  background: white;
+  height: 19vh;
+  width: 65vw;
+  font-size: larger;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(66, 62, 62);
+}
+view h2 {
+  font-size: medium;
+}
+.view b {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0.2vh;
+}
+button {
+  width: 150px;
+  height: 25px;
+  font-weight: bolder;
+  background: wheat;
+  margin: 15px 0;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65vw;
+  height: 30vh;
+  background-color: rgb(144, 144, 206);
+}
+div {
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.icon section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon section hr {
+  border: 2px solid white;
+  width: 10vw;
+  margin: 20px 0;
+}
+

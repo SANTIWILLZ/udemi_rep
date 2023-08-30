@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-attachment: fixed;
+  backface-visibility: hidden;
+}
+main {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("woman.jpg");
+  background-size: cover;
+  color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-attachment: fixed;
+}
+header {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+.body {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.body h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgba(248, 248, 255, 0.685);
+}
+
+.body p {
+  margin: 10px 0px;
+}
+.body button {
+  width: 150px;
+  height: 40px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(134, 62, 3, 0.5),
+    rgba(92, 42, 2, 0.7)
+  );
+}
+.about {
+  height: 60vh;
+  background-color: orangered;
+}
+.features {
+  height: 30vh;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer {
+  display: flex;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
